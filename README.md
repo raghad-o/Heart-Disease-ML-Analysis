@@ -1,7 +1,7 @@
 # Heart Disease Machine Learning Analysis
 
 ## Overview
-This project is an individual machine learning study on a heart disease dataset from Kaggle.  
+This project is an machine learning study on a heart disease dataset from Kaggle.  
 The project focuses on exploring, analyzing, and evaluating different classification models for heart disease prediction.
 The models are trained to predict whether a patient has heart disease (presence or absence) based on clinical features.
 The objective is to evaluate different models and compare their performance through pairwise comparisons using standard evaluation metrics.
@@ -64,12 +64,6 @@ Both models show strong performance with ROC curves close to the top-left corner
 - Best K (Manhattan): 25 → Accuracy ~0.82  
 
 Euclidean distance performed slightly better and produced smoother decision boundaries.
-
----
-
-## Conclusion
-
-K-Nearest Neighbors (Euclidean) achieved the best performance among all tested models for this dataset.
 
 ---
 
