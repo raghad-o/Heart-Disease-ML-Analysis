@@ -2,9 +2,10 @@
 
 ## Overview
 This project is an individual machine learning study on a heart disease dataset from Kaggle.  
-he project focuses on exploring, analyzing, and evaluating different classification models for heart disease prediction.
-
+The project focuses on exploring, analyzing, and evaluating different classification models for heart disease prediction.
+The models are trained to predict whether a patient has heart disease (presence or absence) based on clinical features.
 The objective is to evaluate different models and compare their performance through pairwise comparisons using standard evaluation metrics.
+
 
 Dataset used:  
 https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
