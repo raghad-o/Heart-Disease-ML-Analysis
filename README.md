@@ -2,7 +2,9 @@
 
 ## Overview
 This project is an individual machine learning study on a heart disease dataset from Kaggle.  
-The goal is to explore, analyze, and compare different classification models to predict heart disease.
+he project focuses on exploring, analyzing, and evaluating different classification models for heart disease prediction.
+
+The objective is to evaluate different models and compare their performance through pairwise comparisons using standard evaluation metrics.
 
 Dataset used:  
 https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
@@ -40,7 +42,36 @@ https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 - scikit-learn  
 
 ---
+## Results
+
+### ROC-AUC
+- Decision Tree: ~0.83  
+- Naive Bayes: ~0.82  
+
+Both models show strong performance with ROC curves close to the top-left corner.
+
+---
+
+### Cross-Validation (5-Fold)
+- Decision Tree Mean Accuracy: ~0.72  
+- Naive Bayes Mean Accuracy: ~0.72  
+
+---
+
+### KNN Results
+- Best K (Euclidean): 5 → Accuracy ~0.85  
+- Best K (Manhattan): 25 → Accuracy ~0.82  
+
+Euclidean distance performed slightly better and produced smoother decision boundaries.
+
+---
+
+## Conclusion
+
+K-Nearest Neighbors (Euclidean) achieved the best performance among all tested models for this dataset.
+
+---
 
 ## Note
 
-This project is independent work and not part of any group assignment. Individual academic machine learning project.
+This project is an independent academic machine learning project and is not part of any group work.
